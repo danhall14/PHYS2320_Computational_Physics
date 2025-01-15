@@ -2,15 +2,15 @@
 
 ## Overview
 
-This script is the implementation for the **Computing 2 Coursework** module at the University of Leeds. The objective is to process and analyse experimental data, calculate the asymmetry between two energy channels, fit the asymmetry data to a model, and estimate relevant parameters, including magnetic field strength, detector angle, and damping time constant.
+This project is part of the **Computing 2 Coursework** module at the University of Leeds. The script processes and analyses experimental data to calculate asymmetry between two energy channels. It fits the asymmetry data to a model to estimate key parameters, including magnetic field strength, detector angle, and damping time constant.
 
 ## Features
 
-- **Data Loading**: Loads experimental data from a file and processes it into a usable format.
-- **Data Processing**: Separates data into different energy channels and computes asymmetry values.
-- **Asymmetry Calculation**: Calculates the asymmetry of the data for a given number of bins.
-- **Fitting**: Fits the asymmetry data to a model to estimate the magnetic field strength (B), detector angle (Beta), and damping time constant (Tau).
-- **Plotting**: Plots histograms of the left and right channel data, as well as the asymmetry curve with the fitted parameters.
+- **Data Loading**: Efficiently loads and preprocesses experimental data from a specified file format.
+- **Data Processing**: Organises data into distinct energy channels and computes asymmetry values for analysis.
+- **Asymmetry Calculation**: Computes asymmetry using histogram methods for a specified number of bins.
+- **Model Fitting**: Utilises curve fitting techniques to estimate parameters such as magnetic field strength (B), detector angle (Beta), and damping time constant (Tau).
+- **Visualisation**: Generates comprehensive plots, including histograms and asymmetry curves with fitted parameters, to facilitate data interpretation.
 
 ## File Structure
 
@@ -21,8 +21,8 @@ This script is the implementation for the **Computing 2 Coursework** module at t
 
 - Python 3.x
 - `numpy` for numerical operations
-- `matplotlib` for plotting
-- `scipy` for optimization and fitting
+- `matplotlib` for data visualisation
+- `scipy` for optimization and curve fitting
 
 You can install the required dependencies using:
 
